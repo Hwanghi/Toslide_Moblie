@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <title>message</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link href="message.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="message">
+      <div class="d-flex justify-content-between align-items-center p-3">
+        <img
+        class="messageClose"
+        src="asset\img-2021\PNG_왼쪽버튼_검정.png"
+        alt="home"
+        />
+        <div class="messageIcon">
+          <img class="modeIcon mr-1" src="asset\img-2021\PNG_메시지.png" />
+          메시지
+        </div>
+        <img
+          class="messageClose"
+          src="asset\img-2021\PNG_닫기버튼_진회색.png"
+          style="visibility: hidden;"
+        />
+      </div>
+      <div class="toslide-btn-group d-flex p-1 mx-3 justify-content-center text-center">
+          <input
+          type="radio"
+          class="radio-input js-student-check"
+          name="toslide-radio-btn"
+          id="btnradio1"
+          data-mode="student"
+          />
+          <label class="inputLabel py-1" for="btnradio1" width="100%">키워드</label>    
+          <input
+          type="radio"
+          class="radio-input js-non-student-check"
+          name="toslide-radio-btn"
+          id="btnradio2"
+          data-mode="non-student"
+          />
+          <label class="inputLabel py-1" for="btnradio2">메시지</label>
+      </div>
+      <hr
+        class="my-2"
+        style="border: 1px color= silver;"
+      />
+
+      <div class="d-flex align-items-center justify-content-around mb-2">
+        <div class="sortBox">
+          최신순 정렬
+          <img
+            class="modeIcon"
+            src="asset\img-2021\PNG_드롭다운버튼_진회색.png"
+          />
+        </div>
+        <div>
+          <label class="checkLabel" for="checkbox1">소리알림</label>
+          <input id="checkbox1" type="checkbox" />
+          <label class="checkLabel" for="checkbox2">익명표시</label>
+          <input id="checkbox2" type="checkbox" />
+        </div>
+      </div>
+
+      <div class="messageRow">
+        <div class="container messageObject py-3">
+          <div class="messageHeader row align-items-center">
+            <div class="keyword-list col-9 p-0 pl-5">
+                <button class="btn btn-outline-primary purpleFont">Rendering</button>
+                <button class="btn btn-outline-primary purpleFont">Rendering</button>
+                <button class="btn btn-outline-primary purpleFont">Rendering</button>    
+            </div>
+            <div class="messageFont col-3 p-0">B611061 문상진</div>
+          </div>
+          <div class="row messageMain mt-2 px-3">
+            <div class="messageSelect messageFont col-1 p-0 text-center">
+                <input type="checkbox" id="messageNumber">
+                <label for="messageNumber">01</label>
+            </div>
+            <div class="col-10 p-0">
+              <div class="question px-2">랜더링관련질문입니다.랜더링관련질문입니다.랜더링관련질문입니다.랜더링관련질문입니다.랜더링관련질문입니다.랜더링관련질문입니다.랜더링관련질문입니다.랜더링관련질문입니다.랜더링관련질문입니다.랜더링관련질문입니다.랜더링관련질문입니다.랜더링관련질문입니다.랜더링관련질문입니다.랜더링관련질문입니다.랜더링관련질문입니다.랜더링관련질문입니다.랜더링관련질문입니다.랜더링관련질문입니다.랜더링관련질문입니다.랜더링관련질문입니다.랜더링관련질문입니다.랜더링관련질문입니다.랜더링관련질문입니다.랜더링관련질문입니다.랜더링관련질문입니다.랜더링관련질문입니다.랜더링관련질문입니다.랜더링관련질문입니다.
+              </div>
+            </div>
+            <div class="col-1 p-0">
+              <img
+              class="messageClose"
+              src="asset\img-2021\PNG_닫기버튼_진회색.png"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="messageRoundBox d-flex m-3 p-1 justify-content-around">
+        <div class="d-flex align-items-center">
+          <img
+            class="messageClose"
+            src="asset\img-2021\PNG_왼쪽버튼_검정.png"
+          />
+          <div class="prevMessage">이전 메세지</div>
+        </div>
+        <div class="purpleMessage d-flex align-items-center p-2 ml-3 mr-3">
+          <div class="purpleMessageFont">선택 메세지 표시</div>
+        </div>
+        <div class="d-flex align-items-center">
+          <div class="prevMessage">다음 메시지</div>
+          <img
+            class="messageClose"
+            src="asset\img-2021\PNG_오른쪽버튼_검정.png"
+          />
+        </div>
+      </div>
+      <hr
+        style="margin-top: 5px; margin-bottom: 5px"
+        width="100%"
+      />
+      <div class="d-flex justify-content-between p-3">
+        <div class="messagePost d-flex justify-content-center align-items-center pr-2">
+          <img class="messageClose" src="asset\img-2021\PNG_보내기_검정.png" />
+          <div class="messageFont">개인 메시지 전송</div>
+        </div>
+        <!-- 21-01-18 황희대 메시지 저장 버튼 삭제-->
+        <div class="messagePost d-flex justify-content-center align-items-center pr-2">
+          <img
+            class="messageClose"
+            src="asset\img-2021\PNG_모두삭제_검정.png"
+          />
+          <div class="messageFont">메시지 모두 삭제</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="login.js"></script>
+  </body>
+</html>
