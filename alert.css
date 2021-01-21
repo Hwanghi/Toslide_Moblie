@@ -1,0 +1,61 @@
+
+:root {
+    --toslide-red: #EE3D36; 
+    --toslide-blue: #4535f3;
+    --toslide-alert-blue: #3d3df3;
+    --toslide-blackboard-blue: rgb(19, 29, 179);
+    --toslide-gray: #DADCE0 ;
+    --toslide-normal-gray: #ADAFB3;
+    --toslide-background-gray:#F4F5F6;
+    --toslide-font-gray: #ADAFB3; 
+    --border-radius: 5px;
+}
+/* Toslide font */
+.toslide-font-12 {
+    font-family: roboto !important;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+}
+.toslide-font-medium-14 {
+    font-family: roboto !important;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--toslide-font-gray);
+    font-size: 14px;
+}
+.toslide-font-large-16 {
+    font-family: roboto, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* button customizing */
+.btn-primary, .btn-outline-primary {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline: 0;
+    border-color: var(--toslide-alert-blue) !important;
+}
+.btn-primary {
+    background-color: var(--toslide-alert-blue) !important;
+}
+.btn-outline-primary {
+    color: var(--toslide-alert-blue) !important;
+}
+.btn-outline-primary:hover,
+.btn-outline-primary:active,
+.btn-outline-primary:focus {
+    color: white !important;
+    background-color:var(--toslide-alert-blue) !important;
+}
+/* modal customizing */
+.modal-header, .modal-body {
+    border-bottom: none !important;
+}
+
+.modal-footer {
+    border-top: none !important;
+}
