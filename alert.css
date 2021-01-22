@@ -71,7 +71,7 @@ button {
     border-bottom-left-radius: 13px !important;
 }
 .sh-btn-r{
-    box-sizing: border-box !importants;
+    box-sizing: border-box !important;
     color: var(--toslide-font-gray);
     border:1px solid var(--toslide-border-gray) !important;
     border-bottom-right-radius: 13px !important;
