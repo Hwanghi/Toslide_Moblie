@@ -64,16 +64,22 @@ button {
 }
 
 /* Sang hyeok version */
-.sh-footer {
-    background-color: var(--toslide-btn-gray) !important;
-    border-top:1px solid var(--toslide-border-gray) !important;
+.sh-btn-l{
+    box-sizing: border-box !important;
+    color: var(--toslide-font-gray);
+    border:1px solid var(--toslide-border-gray) !important;
     border-bottom-left-radius: 13px !important;
+}
+.sh-btn-r{
+    box-sizing: border-box !importants;
+    color: var(--toslide-font-gray);
+    border:1px solid var(--toslide-border-gray) !important;
     border-bottom-right-radius: 13px !important;
 }
-.sh-btn {
-    color: var(--toslide-font-gray);
-    width: 49%;
-    background-color: none !important;
+.sh-btn-l:hover,
+.sh-btn-r:hover {
+    color: white;
+    background-color: var(--toslide-font-gray);
 }
 .warning {
     color: var(--toslide-red) !important;
