@@ -2,7 +2,7 @@
 :root {
     --toslide-red: #EE3D36; 
     --toslide-blue: #4535f3;
-    --toslide-alert-blue: #3d3df3;
+    --toslide-focus-blue: #2e24a1;
     --toslide-blackboard-blue: rgb(19, 29, 179);
     --toslide-border-gray: #DADCE0 ;
     --toslide-background-gray:#F4F5F6;
@@ -40,22 +40,26 @@ button {
     box-shadow: none !important;
     outline: 0;
     border-style: 2px !important;
-    border-color: var(--toslide-alert-blue) !important;
+    border-color: var(--toslide-blue) !important;
     border-radius: 5px !important;
-    padding-left: 2.0rem !important;
-    padding-right: 2.0rem !important;
 }
 .btn-primary {
-    background-color: var(--toslide-alert-blue) !important;
+    background-color: var(--toslide-blue) !important;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+    color: white !important;
+    background-color:var(--toslide-focus-blue) !important;
 }
 .btn-outline-primary {
-    color: var(--toslide-alert-blue) !important;
+    color: var(--toslide-blue) !important;
 }
 .btn-outline-primary:hover,
 .btn-outline-primary:active,
 .btn-outline-primary:focus {
     color: white !important;
-    background-color:var(--toslide-alert-blue) !important;
+    background-color:var(--toslide-blue) !important;
 }
 
 /* Modal customizing */
