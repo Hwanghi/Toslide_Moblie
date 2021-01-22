@@ -75,9 +75,6 @@ button {
     width: 49%;
     background-color: none !important;
 }
-.sh-btn:hover {
-    background-color: var(--toslide-font-gray) !important;
-}
 .warning {
     color: var(--toslide-red) !important;
     border-left: 1px solid var(--toslide-border-gray) !important;
