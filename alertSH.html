@@ -10,14 +10,16 @@
     <script src="test.js"></script>
     <title>Document</title>
 </head>
-<body class="container" style="text-align:center;">
-    <div class="row">
-        <div class="col-8 mt-3 ml-5 position-relative" 
-        style="background-color:#F4F5F6; width: 80%; height: 100vh;"> 
+<body>
+    <!--Modal parent's position must be relative-->
+    <div class="position-relative" style="background-color:#F4F5F6;"> 
         <!-- Button trigger SH modal -->
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#shModal">
             모두 삭제
         </button>
+        <p>
+            텍스트 움직이면 안됨
+        </p>
         <!-- SH modal -->
         <div class="modal fade" id="shModal" tabindex="-1" aria-labelledby="shModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-sm">
@@ -40,6 +42,9 @@
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#shModal2">
             개별 삭제
         </button>
+        <p>
+            텍스트 움직이면 안됨
+        </p>
         <!-- SH modal -->
         <div class="modal fade" id="shModal2" tabindex="-1" aria-labelledby="shModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-sm">
@@ -57,7 +62,16 @@
                 </div>
             </div>
         </div>
-    </div>
+
+        <!-- white space -->
+        <p> hello </p>
+        <p> toslide </p>
+        <p> hello </p>
+        <p> toslide </p>
+        <p> hello </p>
+        <p> toslide </p>
+        <p> hello </p>
+        <p> toslide </p>
     </div>
 </body>
 </html>
