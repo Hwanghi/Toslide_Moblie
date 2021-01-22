@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="alert.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700' rel='stylesheet' type='text/css'>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous" defer></script>
+    <script src="test.js"></script>
+    <title>Document</title>
+</head>
+<body> 
+    <div class="position-relative" style="background:#F4F5F6;"> 
+        <!-- Button trigger MJ modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mjModal">
+            MJ 사진/삭제
+        </button>
+        
+        <!-- MJ modal complete-->
+        <div class="modal fade" id="mjModal" tabindex="-1" aria-labelledby="mjModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header justify-content-center">
+                        <h5 class="modal-title font-bold-23 pt-3" id="mjModalLabel">사진을 삭제할까요?</h5>
+                    </div>
+                    <div class="modal-body font-medium-14 p-0 mb-3 text-center" style="color:#7C7D80;">
+                        삭제된 사진은 복구할 수 없습니다.
+                    </div>
+                    <div class="mj-footer modal-footer p-0 py-3 d-flex justify-content-center">
+                        <button type="button" class="admit btn btn-primary px-5 me-2" data-bs-dismiss="modal">확인</button>
+                        <button type="button" class="cancle btn btn-outline-primary px-5" data-bs-dismiss="modal">취소</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Button trigger MJ modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mjModal2">
+            MJ 메시지 전송 완료
+        </button>
+        
+        <!-- MJ modal complete-->
+        <div class="modal fade" id="mjModal2" tabindex="-1" aria-labelledby="mjModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header justify-content-center">
+                        <h5 class="modal-title font-bold-19 pt-3" id="mjModalLabel">메시지 전송완료</h5>
+                    </div>
+                    <div class="modal-body font-medium-14 p-0 mb-3 text-center" style="display:none; color:#7C7D80;">
+                    </div>
+                    <div class="mj-footer modal-footer p-0 py-3 d-flex justify-content-center">
+                        <button type="button" class="btn btn-outline-primary px-5 py-1" data-bs-dismiss="modal">확인</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- white space -->
+        <p> hello </p>
+        <p> toslide </p>
+        <p> hello </p>
+        <p> toslide </p>
+        <p> hello </p>
+        <p> toslide </p>
+        <p> hello </p>
+        <p> toslide </p>
+  </div>
+</body>
+</html>
