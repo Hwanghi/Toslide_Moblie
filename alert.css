@@ -1,0 +1,87 @@
+
+:root {
+    --toslide-red: #EE3D36; 
+    --toslide-blue: #4535f3;
+    --toslide-alert-blue: #3d3df3;
+    --toslide-blackboard-blue: rgb(19, 29, 179);
+    --toslide-border-gray: #DADCE0 ;
+    --toslide-background-gray:#F4F5F6;
+    --toslide-font-gray: #7C7D80; 
+    --toslide-btn-gray: #F4F5F6;
+    --border-radius: 5px;
+}
+button {
+    all:unset;
+    margin: 0;
+    padding: 0;
+    overflow: hidden !important;
+}
+/* Toslide font */
+.font-medium-14 {
+    font: normal normal bold 14px/16px Roboto !important;
+}
+
+.font-large-16 {
+    text-align: center;
+    font: normal normal medium 16px/19px Roboto;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+
+/* Button customizing */
+.btn-primary, .btn-outline-primary {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline: 0;
+    border-color: var(--toslide-alert-blue) !important;
+}
+.btn-primary {
+    background-color: var(--toslide-alert-blue) !important;
+}
+.btn-outline-primary {
+    color: var(--toslide-alert-blue) !important;
+}
+.btn-outline-primary:hover,
+.btn-outline-primary:active,
+.btn-outline-primary:focus {
+    color: white !important;
+    background-color:var(--toslide-alert-blue) !important;
+}
+/* Modal customizing */
+.modal-content {
+    color: black;
+    box-shadow: 0px 0px 20px #00000027 !important;
+    border: 1px solid !important;
+    border-color: var(--toslide-border-gray) !important;
+    border-radius: 13px !important;
+}
+.modal-header, .modal-body {
+    border-bottom: none !important;
+}
+.modal-footer {
+    border-top: none !important;
+}
+
+/* Sang hyeok version */
+.sh-btn-l{
+    box-sizing: border-box !important;
+    color: var(--toslide-font-gray);
+    border:1px solid var(--toslide-border-gray) !important;
+    border-bottom-left-radius: 13px !important;
+}
+.sh-btn-r{
+    box-sizing: border-box !importants;
+    color: var(--toslide-font-gray);
+    border:1px solid var(--toslide-border-gray) !important;
+    border-bottom-right-radius: 13px !important;
+}
+.sh-btn-l:hover,
+.sh-btn-r:hover {
+    color: white;
+    background-color: var(--toslide-font-gray);
+}
+.warning {
+    color: var(--toslide-red) !important;
+    border-left: 1px solid var(--toslide-border-gray) !important;
+}
