@@ -21,14 +21,14 @@
         <div class="modal-dialog modal-sm">
             <div class="modal-content">
                 <div class="modal-header justify-content-center">
-                    <h5 class="modal-title toslide-font-large-16 pt-3" id="mjModalLabel">사진을 삭제할까요?</h5>
+                    <h5 class="modal-title font-large-16 pt-3" id="mjModalLabel">사진을 삭제할까요?</h5>
                 </div>
-                <div class="modal-body toslide-font-medium-14 p-0 text-center">
+                <div class="modal-body font-medium-14 p-0 text-center">
                     삭제된 사진은 복구할 수 없습니다.
                 </div>
-                <div class="modal-footer d-flex justify-content-center">
-                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">확인</button>
-                    <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">취소</button>
+                <div class="mj-footer modal-footer d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary btn-lg" data-bs-dismiss="modal">확인</button>
+                    <button type="button" class="btn btn-outline-primary btn-lg" data-bs-dismiss="modal">취소</button>
                 </div>
             </div>
         </div>
@@ -39,19 +39,18 @@
         SH modal
     </button>
     <!-- SH modal -->
-    <div class="modal fade" id="shModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+    <div class="modal fade" id="shModal" tabindex="-1" aria-labelledby="shModalLabel" aria-hidden="true">
+        <div class="modal-dialog m-5">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-header justify-content-center p-0 pt-3">
+                    <img src="alert_img/trashcan.png" width="33%">
                 </div>
-                <div class="modal-body">
-                    ...
+                <div class="modal-body font-medium-14 p-0 pb-4 text-center">
+                    사진을 모두 삭제하시겠습니까?
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                <div class="sh-footer modal-footer d-flex p-0">
+                    <button type="button" class="sh-btn font-large-16 p-0 py-3 m-0" data-bs-dismiss="modal">취소</button>
+                    <button type="button" class="sh-btn warning font-large-16 p-0 py-3 m-0" data-bs-dismiss="modal">모두 삭제</button>
                 </div>
             </div>
         </div>

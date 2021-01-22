@@ -4,35 +4,32 @@
     --toslide-blue: #4535f3;
     --toslide-alert-blue: #3d3df3;
     --toslide-blackboard-blue: rgb(19, 29, 179);
-    --toslide-gray: #DADCE0 ;
-    --toslide-normal-gray: #ADAFB3;
+    --toslide-border-gray: #DADCE0 ;
     --toslide-background-gray:#F4F5F6;
-    --toslide-font-gray: #ADAFB3; 
+    --toslide-font-gray: #7C7D80; 
+    --toslide-btn-gray: #F4F5F6;
     --border-radius: 5px;
 }
+button {
+    all:unset;
+    margin: 0;
+    padding: 0;
+    overflow: hidden !important;
+}
 /* Toslide font */
-.toslide-font-12 {
-    font-family: roboto !important;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 14px;
-}
-.toslide-font-medium-14 {
-    font-family: roboto !important;
-    font-weight: 500;
-    font-style: normal;
-    color: var(--toslide-font-gray);
-    font-size: 14px;
-}
-.toslide-font-large-16 {
-    font-family: roboto, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 16px;
-    text-align: center;
+.font-medium-14 {
+    font: normal normal bold 14px/16px Roboto !important;
 }
 
-/* button customizing */
+.font-large-16 {
+    text-align: center;
+    font: normal normal medium 16px/19px Roboto;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+
+/* Button customizing */
 .btn-primary, .btn-outline-primary {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
@@ -51,11 +48,37 @@
     color: white !important;
     background-color:var(--toslide-alert-blue) !important;
 }
-/* modal customizing */
+/* Modal customizing */
+.modal-content {
+    color: black;
+    box-shadow: 0px 0px 20px #00000027 !important;
+    border: 1px solid !important;
+    border-color: var(--toslide-border-gray) !important;
+    border-radius: 13px !important;
+}
 .modal-header, .modal-body {
     border-bottom: none !important;
 }
-
 .modal-footer {
     border-top: none !important;
+}
+
+/* Sang hyeok version */
+.sh-footer {
+    background-color: var(--toslide-btn-gray) !important;
+    border-top:1px solid var(--toslide-border-gray) !important;
+    border-bottom-left-radius: 13px !important;
+    border-bottom-right-radius: 13px !important;
+}
+.sh-btn {
+    color: var(--toslide-font-gray);
+    width: 49%;
+    background-color: none !important;
+}
+.sh-btn:hover {
+    background-color: var(--toslide-font-gray) !important;
+}
+.warning {
+    color: var(--toslide-red) !important;
+    border-left: 1px solid var(--toslide-border-gray) !important;
 }
